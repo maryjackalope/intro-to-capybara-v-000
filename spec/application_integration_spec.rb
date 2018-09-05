@@ -35,6 +35,7 @@ describe "POST '/greet' - User Greeting" do
     click_button "Submit"
  
     expect(page).to have_text("Hi Avi, nice to meet you!")
+  end
  end
  end
   end
